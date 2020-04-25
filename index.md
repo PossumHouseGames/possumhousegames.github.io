@@ -37,12 +37,14 @@ Play the DEMO today at:
 
 [ITCH.IO](https://possumhousegames.itch.io/shot-in-the-dark){: .btn .btn--inverse .btn--x-large}
 {: style="text-align: center;"}
-
+<!-- 
 Or...
 {: style="text-align: center;"}
 
 [Direct Download](#){: .btn .btn--inverse .btn--x-large}
 {: style="text-align: center;"}
+
+-->
 
 ---
 
