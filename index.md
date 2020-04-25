@@ -46,6 +46,9 @@ Or...
 
 -->
 
+[Wishlist on Steam today](https://store.steampowered.com/app/1204940/Shot_in_the_Dark/)
+{: style="text-align: center;"}
+
 ---
 
 {% include feature_row %}
