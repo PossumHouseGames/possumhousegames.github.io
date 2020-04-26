@@ -22,7 +22,7 @@ description: >- # this means to ignore newlines until "baseurl:"
 twitter_username: PossumHGames
 github_username: possumhousegames
 minimal_mistakes_skin: dark
-search: true
+search: false
 
 # Build settings
 markdown: kramdown
@@ -59,7 +59,7 @@ plugins:
   - jekyll-include-cache
 
 author:
-  name   : "Possum House"
+  name   : "Possum House Games"
   avatar : "/assets/images/bio-photo.jpg"
   bio    : "We make games."
   links:
