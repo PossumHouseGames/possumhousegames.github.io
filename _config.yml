@@ -29,13 +29,20 @@ markdown: kramdown
 remote_theme: mmistakes/minimal-mistakes
 # Outputting
 permalink: /:categories/:title/
-paginate: 5 # amount of posts to show
+paginate: 5 # amount of posts to show 
 paginate_path: /recent/page:num/
 timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 logo: "/assets/images/whitelogo.png"
 masthead_title: "Possum House Games"
 include:
   - _pages
+
+# Analytics
+analytics:
+  provider               : false # false (default), "google", "google-universal", "custom"
+  google:
+    tracking_id          :
+    anonymize_ip         : # true, false (default)
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
@@ -90,6 +97,9 @@ footer:
     - label: "Discord"
       icon: "fab fa-fw fa-discord"
       url: "https://discord.gg/WBB7yeb"
+    - label: "Facebook"
+      icon: "fab fa-fw fa-facebook-square"
+      url: "https://www.facebook.com/Possum-House-Games-105905267566976"
 
 defaults:
   # _posts
