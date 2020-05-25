@@ -1,0 +1,91 @@
+{% if include.id %}
+  {% assign collaber = page[include.id] %}
+{% else %}
+  {% assign collaber = page.feature_row %}
+{% endif %}
+
+<div class="feature__wrapper">
+
+  {% assign f = site.data.authors[collaber.name] %}
+  
+  {% comment %}
+    {% if f.url contains "://" %}
+      {% capture f_url %}{{ f.url }}{% endcapture %}
+    {% else %}
+      {% capture f_url %}{{ f.url | relative_url }}{% endcapture %}
+    {% endif %}
+  {% endcomment %}
+
+  <div class="feature__item{% if include.type %}--{{ include.type }}{% endif %}">
+    <div class="archive__item">
+      {% if f.avatar %}
+        <div class="archive__item-teaser">
+        {% if f.url %}
+          <a href="{{ f_url }}">
+        {% endif %}
+            <img src=
+              {% if f.avatar contains "://" %}
+                "{{ f.avatar }}"
+              {% else %}
+                "{{ f.avatar | relative_url }}"
+              {% endif %}
+            alt="{% if f.alt %}{{ f.alt }}{% else %}{{ f.name }} avatar{% endif %}">
+            
+        {% if f.url %}  
+          </a>
+        {% endif %}
+        </div>
+      {% endif %}
+
+      <div class="archive__item-body">
+        {% if f.name %}
+        <!--
+          {% if f.url %}
+            <a href="{{ f_url }}">
+          {% endif %}
+        -->
+        <h2 class="archive__item-title">{{ f.name }}</h2>
+        
+        {% comment %}
+        {% if f.subtitle %}
+          <span class="archive__item-caption">{{ f.subtitle | markdownify | remove: "<p>" | remove: "</p>" }}</span>
+        {% endif %}
+        {% endcomment %}
+
+        <!--
+          {% if f.url %}  
+            </a>
+          {% endif %}
+        -->
+          
+        {% endif %}
+
+        {% if f.bio %}
+          <div class="archive__item-excerpt">
+            {{ f.bio | markdownify }}
+          </div>
+        {% endif %}
+      
+        {% if f.links %}
+          <p>
+          {% for link in f.links %}
+            {% if link.label and link.url %}
+              <a href="{{ link.url }}" class="btn btn--light-outline" rel="nofollow noopener noreferrer"><i class="{{ link.icon | default: 'fas fa-link' }}" aria-hidden="true"></i><span class="label">{{ link.label }}</span></a>
+            {% endif %} 
+
+            {% comment %}            
+            {% if f.url %}
+              <p><a href="{{ f.url | relative_url }}" class="btn {{ f.btn_class }}">{{ f.btn_label | default: site.data.ui-text[site.locale].more_label | default: "Learn More" }}</a></p>
+            {% endif %}
+            {% endcomment %}
+
+          {% endfor %}
+          </p>
+        {% endif %}
+
+      </div>
+    </div>
+  </div>
+  
+
+</div>

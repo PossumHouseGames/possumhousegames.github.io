@@ -1,6 +1,12 @@
 main:
   - title: "Shot in the Dark"
     url: /shot-in-the-dark/
+  - title: "Team"
+    url: /team/  
+  - title: "Press"
+    url: /press/
+  # - title: "Contact"
+  #   url: /contact/
   # - title: "Blog"
   #   url: /blog/
   # - title: "Categories"
