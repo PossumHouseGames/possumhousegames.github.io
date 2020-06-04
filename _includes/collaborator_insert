@@ -44,7 +44,9 @@
             <a href="{{ f_url }}">
           {% endif %}
         -->
-        <h2 class="archive__item-title">{{ f.name }}</h2>
+
+        <h2 class="archive__item-title" style="padding-bottom: 0">{{ f.name }}</h2>
+        <h6 class="archive__item-subtitle" style="margin-top: 0"><small><em>{{ f.subtitle }}</em></small></h6>
         
         {% comment %}
         {% if f.subtitle %}
