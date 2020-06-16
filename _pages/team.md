@@ -10,9 +10,10 @@ collaborators:
  - name: Nicholas Basch
  - name: Nick Heigl
 ---
-
-<!-- # {{ page.title }}
-{: .text-center} -->
+<br />
+#  The {{ page.title }}
+{: .text-center}
+---
 
 {% assign left = true %}
 

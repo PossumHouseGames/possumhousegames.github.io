@@ -1,22 +1,172 @@
-featured-games:
-  - image_path: /assets/images/web-shotinthedark-1.png
-    alt: "customizable"
-    title: "Super customizable"
-    excerpt: "Everything from the menus, sidebars, comments, and more can be configured or set with YAML Front Matter."
-    url: "/docs/configuration/"
-    btn_class: "btn--primary"
-    btn_label: "Learn more"
-  - image_path: /assets/images/web-swordslime-1.png
-    alt: "fully responsive"
-    title: "Responsive layouts"
-    excerpt: "Built with HTML5 + CSS3. All layouts are fully responsive with helpers to augment your content."
-    url: "/docs/layouts/"
-    btn_class: "btn--primary"
-    btn_label: "Learn more"
-  - image_path: /assets/images/web-heavycrown-1.png
-    alt: "100% free"
-    title: "100% free"
-    excerpt: "Free to use however you want under the MIT License. Clone it, fork it, customize it... whatever!"
-    url: "/docs/license/"
-    btn_class: "btn--primary"
-    btn_label: "Learn more"  
+Shot in the Dark:
+  name:  "Shot in the Dark"
+  header_image: /assets/images/shot-in-the-dark/shot-in-the-dark-banner.png
+  cover_image: /assets/images/shot-in-the-dark/shot-in-the-dark-cover-image.png
+  video: 53NrGikSnqs
+  tagline: Teeth in the dark...
+  description: |
+    Shot in the Dark is a classic western tale of bloody vengeance, rituals, and teeth in the dark. Take up the gun of the lone bandit as they stop at nothing in the pursuit of vengeance. The only thing standing between the bandit and their quarry are the occult nightmares lurking in the darkness. From demons to cultists and long dead gunslingers, all manner of foes are arrayed against you.
+
+    Shot in the Dark offers a unique challenge, combining nail biting pixel perfect platforming with precise point and click shooting. But many of the cruel creatures of the night remain hidden in shadow. The bandit will have to be on the lookout for glowing red eyes, shadows moving through the trees, and figures lurking in the night. Because sometimes the only sign of a demon on your trail is the slight movement of the tall grass. And sometimes all you can do is take a shot in the dark.
+  links:
+    # - label: "Website"
+    #   icon: "fas fa-fw fa-link"
+    #   url: "https://possumhousegames.com/games/shot-in-the-dark/"
+    - label: "Steam"
+      icon: "fab fa-fw fa-steam"
+      url: "https://store.steampowered.com/app/1204940/Shot_in_the_Dark/"
+    - label: "Itch.io"
+      icon: "fab fa-fw fa-itch-io"
+      url: "https://possumhousegames.itch.io/shot-in-the-dark"
+    - label: "Press Kit"
+      icon: "fa fa-fw fa-newspaper"
+      url: "https://possumhousegames.com/press/shot-in-the-dark/index.html"
+  gallery:
+    - url: /assets/images/shot-in-the-dark/sitd_walk1.gif
+      image_path: /assets/images/shot-in-the-dark/sitd_walk1.gif
+      alt: "placeholder image 1"
+      title: ""
+    - url: /assets/images/shot-in-the-dark/sitd_summon.gif
+      image_path: /assets/images/shot-in-the-dark/sitd_summon.gif
+      alt: "placeholder image 2"
+      title: ""
+    - url: /assets/images/shot-in-the-dark/sitd_walkdown.gif
+      image_path: /assets/images/shot-in-the-dark/sitd_walkdown.gif
+      alt: "placeholder image 3"
+      title: ""
+    - url: /assets/images/shot-in-the-dark/bigredcomingdone.png
+      image_path: /assets/images/shot-in-the-dark/bigredcomingdone.png
+      alt: "placeholder image 1"
+      title: ""
+    - url: /assets/images/shot-in-the-dark/churchexeriorddone.png
+      image_path: /assets/images/shot-in-the-dark/churchexeriorddone.png
+      alt: "placeholder image 2"
+      title: ""
+    - url: /assets/images/shot-in-the-dark/pentagramshootout.png
+      image_path: /assets/images/shot-in-the-dark/pentagramshootout.png
+      alt: "placeholder image 3"
+      title: ""
+    - url: /assets/images/shot-in-the-dark/traincars.png
+      image_path: /assets/images/shot-in-the-dark/traincars.png
+      alt: "placeholder image 2"
+      title: ""
+    - url: /assets/images/shot-in-the-dark/traincloud.png
+      image_path: /assets/images/shot-in-the-dark/traincloud.png
+      alt: "placeholder image 3"
+      title: ""
+    - url: /assets/images/shot-in-the-dark/trainengine.png
+      image_path: /assets/images/shot-in-the-dark/trainengine.png
+      alt: "placeholder image 1"
+      title: ""
+    - url: /assets/images/shot-in-the-dark/churchinteriordone.png
+      image_path: /assets/images/shot-in-the-dark/churchinteriordone.png
+      alt: "placeholder image 3"
+      title: ""
+    - url: /assets/images/shot-in-the-dark/gargoylemoondone.png
+      image_path: /assets/images/shot-in-the-dark/gargoylemoondone.png
+      alt: "placeholder image 1"
+      title: ""
+
+The Sword and the Slime:
+  name:  "The Sword and the Slime"
+  header_image: /assets/images/sword-and-the-slime/sword-and-the-slime-banner.png
+  cover_image: /assets/images/sword-and-the-slime/sword-and-the-slime-cover-image.png
+  video: 79ynk5KUTus
+  tagline: A sword and sorcery platformer where you play as the sword
+  description: |
+    The Sword and the Slime is a non traditional puzzle-platformer where the player, using only the mouse, controls a magical flying sword on a quest through deep dungeons and enchanted forests. The player must use the sword to directly and indirectly influence the environment in order to overcome obstacles and solve puzzles. While this mostly involves hacking things up with the sword, violence doesn’t solve everything. You’ll have to think outside the box and work with an unconventional and slimy ally.
+  links:
+    # - label: "Website"
+    #   icon: "fas fa-fw fa-link"
+    #   url: "https://possumhousegames.com/games/the-sword-and-the-slime/"
+    - label: "Steam"
+      icon: "fab fa-fw fa-steam"
+      url: "https://store.steampowered.com/app/1130570/The_Sword_and_the_Slime/"
+    - label: "Itch.io"
+      icon: "fab fa-fw fa-itch-io"
+      url: "https://possumhousegames.itch.io/the-sword-and-the-slime"
+    - label: "Press Kit"
+      icon: "fa fa-fw fa-newspaper"
+      url: "https://possumhousegames.com/press/sword-and-the-slime/index.html"
+  galleries:  
+    - layout: ""
+      gallery:
+      - url: /assets/images/sword-and-the-slime/title-scene.png
+        image_path: /assets/images/sword-and-the-slime/title-scene.png
+        alt: "placeholder image 1"
+        title: ""        
+    - layout: "half"
+      gallery:
+        - url: /assets/images/sword-and-the-slime/knightattackbackground.gif
+          image_path: /assets/images/sword-and-the-slime/knightattackbackground.gif
+          alt: "placeholder image 2"
+          title: ""
+        - url: /assets/images/sword-and-the-slime/disolved.gif
+          image_path: /assets/images/sword-and-the-slime/disolved.gif
+          alt: "placeholder image 3"
+          title: ""
+        - url: /assets/images/sword-and-the-slime/spiderwalk.gif
+          image_path: /assets/images/sword-and-the-slime/spiderwalk.gif
+          alt: "placeholder image 1"
+          title: ""
+        - url: /assets/images/sword-and-the-slime/bombskeleton.gif
+          image_path: /assets/images/sword-and-the-slime/bombskeleton.gif
+          alt: "placeholder image 2"
+          title: ""
+    - layout: "" 
+      gallery:
+        - url: /assets/images/sword-and-the-slime/graveforest2-768x410.png
+          image_path: /assets/images/sword-and-the-slime/graveforest2-768x410.png
+          alt: "placeholder image 3"
+          title: ""
+        - url: /assets/images/sword-and-the-slime/indoors.png
+          image_path: /assets/images/sword-and-the-slime/indoors.png
+          alt: "placeholder image 2"
+          title: ""
+        - url: /assets/images/sword-and-the-slime/houses.png
+          image_path: /assets/images/sword-and-the-slime/houses.png
+          alt: "placeholder image 3"
+          title: ""
+        - url: /assets/images/sword-and-the-slime/giant-corpse.jpg
+          image_path: /assets/images/sword-and-the-slime/giant-corpse.jpg
+          alt: "placeholder image 1"
+          title: ""
+
+Heavy is the Crown:
+  name:  "Heavy is the Crown"
+  header_image: /assets/images/heavy-is-the-crown/heavy-is-the-crown-banner.png
+  cover_image: /assets/images/heavy-is-the-crown/heavy-is-the-crown-cover-image.png
+  video: dDXaM2JzQO8
+  tagline: Maintain the flock. Maintain your home.
+  description: |
+    It is up to you to maintain the flock.
+
+    It is up to you to maintain the home.
+
+    During the day you must contain your flock of sheep by keeping them from wandering off the screen. How many sheep you have left at the end of the day determines how much money you make.
+
+    At the end of the day it is up to you to decide how to spend that money.  Do you buy more sheep? Do you build a fence?  Do you refill the pantry?
+
+    It all depends on you.
+  links:
+    # - label: "Website"
+    #   icon: "fas fa-fw fa-link"
+    #   url: "https://possumhousegames.com/games/the-sword-and-the-slime/"
+    # - label: "Steam"
+    #   icon: "fab fa-fw fa-steam"
+    #   url: "https://store.steampowered.com/app/1130570/The_Sword_and_the_Slime/"
+    - label: "Itch.io"
+      icon: "fab fa-fw fa-itch-io"
+      url: "https://possumhousegames.itch.io/heavy-is-the-crown"
+    - label: "Press Kit"
+      icon: "fa fa-fw fa-newspaper"
+      url: "https://possumhousegames.com/press/heavy-is-the-crown/index.html"
+  gallery:
+    - url: /assets/images/heavy-is-the-crown/hitc-cabin.png
+      image_path: /assets/images/heavy-is-the-crown/hitc-cabin.png
+      alt: "placeholder image 1"
+      title: ""
+    - url: /assets/images/heavy-is-the-crown/hitc-field.png
+      image_path: /assets/images/heavy-is-the-crown/hitc-field.png
+      alt: "placeholder image 2"
+      title: ""

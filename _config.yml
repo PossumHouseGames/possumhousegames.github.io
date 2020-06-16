@@ -67,12 +67,27 @@ plugins:
 
 author:
   name   : "Possum House Games"
-  avatar : "/assets/images/bio-photo.jpg"
+  avatar : "/assets/images/collaborators/PossumHouse.png"
   bio    : "We make games."
+  subtitle : "Indie Game Studio"
+  # twitter: PossumHGames
+  # steam: PossumHouse
+  email: possumHgames@gmail.com
+  # facebook: Possum-House-Games-105905267566976
+  # instagram: funnybirdart
   links:
     - label: "Website"
       icon: "fas fa-fw fa-link"
-      url: "https://"
+      url: "https://possumhousegames.com/"
+    - label: "Itch.io"
+      icon: "fab fa-fw fa-itch-io"
+      url: "https://possumhousegames.itch.io/"
+    - label: "Steam"
+      icon: "fab fa-fw fa-steam"
+      url: "https://store.steampowered.com/search/?developer=Possum%20House%20Games"
+    # - label: "Steam Profile"
+    #   icon: "fas fa-fw fa-steam"
+    #   url: "https://steamcommunity.com/profiles/76561198979349660/"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
       url: "https://twitter.com/PossumHGames"
@@ -81,25 +96,16 @@ author:
     #   url: "https://github.com/"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
-      url: "https://www.instagram.com/funnybirdart/"
-
-footer:
-  links:
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/PossumHGames"
-    # - label: "GitHub"
-    #   icon: "fab fa-fw fa-github"
-    #   url: "https://github.com/"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "https://www.instagram.com/funnybirdart/"
-    - label: "Discord"
-      icon: "fab fa-fw fa-discord"
-      url: "https://discord.gg/WBB7yeb"
+      url: "https://www.instagram.com/funnybirdart/"    
+    - label: "Youtube"
+      icon: "fab fa-fw fa-youtube"
+      url: "https://www.youtube.com/channel/UCbCQ7FJ-OSXulMFavJyKsPQ"
     - label: "Facebook"
       icon: "fab fa-fw fa-facebook-square"
       url: "https://www.facebook.com/Possum-House-Games-105905267566976"
+    - label: "Discord"
+      icon: "fab fa-fw fa-discord"
+      url: "https://discord.gg/RmFFxyw"
 
 defaults:
   # _posts
@@ -120,6 +126,14 @@ defaults:
     values:
       layout: single
       author_profile: true
+  # _games
+  - scope:
+      path: ""
+      type: games
+    values:
+      layout: game
+      author_profile: false
+      share: false
 
 category_archive:
   type: liquid
@@ -127,3 +141,48 @@ category_archive:
 tag_archive:
   type: liquid
   path: /tags/
+
+games_archive:
+  type: liquid
+  path: /games/
+
+
+# Collections
+collections:
+  games:
+    output: true
+    permalink: /:collection/:path/
+
+# Site Footer
+footer:
+  links:
+    - label: "Website"
+      icon: "fas fa-fw fa-link"
+      url: "https://possumhousegames.com/"
+    - label: "Itch.io"
+      icon: "fab fa-fw fa-itch-io"
+      url: "https://possumhousegames.itch.io/"
+    - label: "Steam"
+      icon: "fab fa-fw fa-steam"
+      url: "https://store.steampowered.com/search/?developer=Possum%20House%20Games"
+    # - label: "Steam Profile"
+    #   icon: "fas fa-fw fa-steam"
+    #   url: "https://steamcommunity.com/profiles/76561198979349660/"
+    - label: "Twitter"
+      icon: "fab fa-fw fa-twitter-square"
+      url: "https://twitter.com/PossumHGames"
+    # - label: "GitHub"
+    #   icon: "fab fa-fw fa-github"
+    #   url: "https://github.com/"
+    - label: "Instagram"
+      icon: "fab fa-fw fa-instagram"
+      url: "https://www.instagram.com/funnybirdart/"    
+    - label: "Youtube"
+      icon: "fab fa-fw fa-youtube"
+      url: "https://www.youtube.com/channel/UCbCQ7FJ-OSXulMFavJyKsPQ"
+    - label: "Facebook"
+      icon: "fab fa-fw fa-facebook-square"
+      url: "https://www.facebook.com/Possum-House-Games-105905267566976"
+    - label: "Discord"
+      icon: "fab fa-fw fa-discord"
+      url: "https://discord.gg/RmFFxyw"

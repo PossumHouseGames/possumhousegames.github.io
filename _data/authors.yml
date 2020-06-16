@@ -15,7 +15,7 @@ Possum House:
       url: "https://possumhousegames.com/"
     - label: "Itch.io"
       icon: "fab fa-fw fa-itch-io"
-      url: "https://possumhousegames.com/"
+      url: "https://possumhousegames.itch.io/"
     - label: "Steam"
       icon: "fab fa-fw fa-steam"
       url: "https://store.steampowered.com/search/?developer=Possum%20House%20Games"
@@ -37,6 +37,10 @@ Possum House:
     - label: "Facebook"
       icon: "fab fa-fw fa-facebook-square"
       url: "https://www.facebook.com/Possum-House-Games-105905267566976"
+    - label: "Discord"
+      icon: "fab fa-fw fa-discord"
+      url: "https://discord.gg/RmFFxyw"
+
 
 Dennis McCorry:
   name   : "Dennis McCorry"
@@ -60,7 +64,7 @@ Lesther Reynoso:
   name   : "Lesther Reynoso"
   avatar : "/assets/images/collaborators/PossumLesther.png"
   bio    : 
-    After graduating with a degree in Computer Science and Computer engineering, Lesther took up game development as a hobby. He brings his years of experience as a Software Engineer to the team as the resident game programmer as well as performing the software project management and release duties.   
+    After graduating with a degree in Computer Science and Computer engineering, Lesther took up game development as a hobby. He brings his years of experience as a Software Engineer to the team as the resident game programmer as well as performing the software project management duties.   
   subtitle : "Game Developer, Programmer"
   links:
     - label: "Website"
@@ -91,7 +95,7 @@ Nick Heigl:
   name   : "Nick 'slowpoke' Heigl"
   avatar : "/assets/images/collaborators/PossumNick.png"
   bio    : 
-    I help make trailers and GIFs for Possum House! Helped out with tabling at conventions in the Before Times as well
+    With his skills in video creation, Nick helps make trailers and GIFs for Possum House! He also helps out with tabling at conventions and events along with general promotion activities. 
   subtitle : "Video Editor"
   links:
     - label: "Twitter"

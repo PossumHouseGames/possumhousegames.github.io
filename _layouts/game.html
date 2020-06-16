@@ -1,11 +1,17 @@
 ---
 layout: default
 ---
+{% assign game = site.data.games[page.title] %}
 
-{% if page.header.overlay_color or page.header.overlay_image or page.header.image %}
-  {% include page__hero.html %}
-{% elsif page.header.video.id and page.header.video.provider %}
-  {% include page__hero_video.html %}
+{% if game.video %}
+  {% capture vid_id %}{{game.video}}{% endcapture %}
+  {% include video id=vid_id provider="youtube" %}
+
+{% comment %}
+{% elsif game.header_image %}
+ {% include page__hero.html image=game.header_image teaser=game.cover_image %}
+{% endcomment%}
+
 {% endif %}
 
 <div id="main" role="main">
@@ -15,7 +21,19 @@ layout: default
     {% if page.date %}<meta itemprop="datePublished" content="{{ page.date | date_to_xmlschema }}">{% endif %}
     {% if page.last_modified_at %}<meta itemprop="dateModified" content="{{ page.last_modified_at | date_to_xmlschema }}">{% endif %}
 
-    <section class="page__content" itemprop="text">
+    <section class="page__content" itemprop="text" style="text-align: center;">
+      <p>
+      {% for link in game.links %}
+        {% if link.label and link.url %}
+          <a href="{{ link.url }}" class="btn btn--inverse btn--x-large" rel="nofollow noopener noreferrer"><i class="{{ link.icon | default: 'fas fa-link' }}" aria-hidden="true"></i><span class="label">{{ link.label }}</span></a>
+        {% endif %} 
+      {% endfor %}
+      </p>
+      {{ game.description | markdownify }}
+
+      {% if game.gallery or game.galleries %}
+        {% include gallery gameid=page.title %}
+      {% endif %}
       {{ content }}
     </section>
   </article>

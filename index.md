@@ -6,18 +6,18 @@ header:
 intro: 
   - excerpt: 'We Are Possum House!'
 feature_row: 
-  - image_path: /assets/images/web-shotinthedark-1.png
+  - image_path: /assets/images/shot-in-the-dark/shot-in-the-dark-cover-image.png
     alt: "shot-in-the-dark-logo"
     excerpt: "Comming Soon!"
-    url: "/shot-in-the-dark/"
-  - image_path: /assets/images/web-swordslime-1.png
-    alt: "sword-in-the-slime-logo"
+    url: "/games/shot-in-the-dark/"
+  - image_path: /assets/images/sword-and-the-slime/sword-and-the-slime-cover-image.png
+    alt: "sword-and-the-slime-logo"
     excerpt: "Avaliable on [STEAM](https://store.steampowered.com/app/1130570/The_Sword_and_the_Slime/) and [ITCH.IO](https://possumhousegames.itch.io/the-sword-and-the-slime)"
-    url: "http://www.swordandtheslime.com/"
-  - image_path: /assets/images/web-heavycrown-1.png
+    url: "/games/sword-and-the-slime"
+  - image_path: /assets/images/heavy-is-the-crown/heavy-is-the-crown-cover-image.png
     alt: "heavy-is-the-crown-logo"
     excerpt: "Available on [ITCH.IO](https://possumhousegames.itch.io/heavy-is-the-crown)"
-    url: "https://possumhousegames.itch.io/"
+    url: "/games/heavy-is-the-crown"
 ---
 <!-- 
 ![featured-game]({{ site.url }}{{ site.baseurl }}/assets/images/websitelogo.png){: .align-center}
@@ -26,7 +26,10 @@ feature_row:
  <iframe width="640" height="360" src="https://www.youtube-nocookie.com/embed/l2Of1-d5E5o?controls=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
  -->
 
- <iframe width="560" height="315" src="https://www.youtube.com/embed/loDKFPIL1g8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<!--  <iframe width="560" height="315" src="https://www.youtube.com/embed/loDKFPIL1g8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
+
+{% include video id="53NrGikSnqs" provider="youtube" %}
+ 
 
 {% comment %}
 {% include feature_row id="intro" type="center" %}
