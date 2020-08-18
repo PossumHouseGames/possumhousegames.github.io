@@ -162,11 +162,11 @@ Heavy is the Crown:
       icon: "fa fa-fw fa-newspaper"
       url: "https://possumhousegames.com/press/heavy-is-the-crown/index.html"
   gallery:
-    - url: /assets/images/heavy-is-the-crown/hitc-cabin.png
-      image_path: /assets/images/heavy-is-the-crown/hitc-cabin.png
+    - url: /assets/images/heavy-is-the-crown/HeavyistTheCrownBIG.png
+      image_path: /assets/images/heavy-is-the-crown/HeavyistTheCrownBIG.png
       alt: "placeholder image 1"
       title: ""
-    - url: /assets/images/heavy-is-the-crown/hitc-field.png
-      image_path: /assets/images/heavy-is-the-crown/hitc-field.png
+    - url: /assets/images/heavy-is-the-crown/Heavycrown2BIG.png
+      image_path: /assets/images/heavy-is-the-crown/Heavycrown2BIG.png
       alt: "placeholder image 2"
       title: ""
