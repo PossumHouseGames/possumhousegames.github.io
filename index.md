@@ -2,7 +2,7 @@
 layout: splash
 permalink: /
 header:
-  image: /assets/images/shot-in-the-dark/shot-in-the-dark-banner.svg
+  image: /assets/images/shot-in-the-dark/shot-in-the-dark-banner.png
 intro: 
   - excerpt: 'We Are Possum House!'
 feature_row: 
