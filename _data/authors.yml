@@ -8,7 +8,7 @@ Possum House:
   # steam: PossumHouse
   email: possumHgames@gmail.com
   # facebook: Possum-House-Games-105905267566976
-  # instagram: funnybirdart
+  # instagram: possumhousegames
   links:
     - label: "Website"
       icon: "fas fa-fw fa-link"
@@ -30,7 +30,7 @@ Possum House:
     #   url: "https://github.com/"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
-      url: "https://www.instagram.com/funnybirdart/"    
+      url: "https://www.instagram.com/possumhousegames/"    
     - label: "Youtube"
       icon: "fab fa-fw fa-youtube"
       url: "https://www.youtube.com/channel/UCbCQ7FJ-OSXulMFavJyKsPQ"
