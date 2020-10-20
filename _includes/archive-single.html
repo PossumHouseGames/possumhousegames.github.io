@@ -52,8 +52,10 @@
           <a href="{{ post.url | relative_url }}" rel="permalink">{{ title }}</a>
         {% endif %}
       </h2>
--->
       {% if game.tagline %}<h2 class="text-center" itemprop="description">{{ game.tagline | markdownify | strip_html | truncate: 160 }}</h2>{% endif %} 
+
+-->
+
       <hr>
     </article>
   </div>
