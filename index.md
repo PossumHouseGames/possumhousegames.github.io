@@ -1,8 +1,6 @@
 ---
 layout: splash
 permalink: /
-header:
-  image: /assets/images/shot-in-the-dark/shot-in-the-dark-banner.png
 intro: 
   - excerpt: 'We Are Possum House!'
 feature_row: 
@@ -35,23 +33,31 @@ feature_row:
 {% include feature_row id="intro" type="center" %}
 {% endcomment %}
 
-Play the DEMO today at: 
+<!-- Play the DEMO today at: 
 {: style="text-align: center;"}
 
 [ITCH.IO](https://possumhousegames.itch.io/shot-in-the-dark){: .btn .btn--inverse .btn--x-large}
-{: style="text-align: center;"}
-<!-- 
-Or...
-{: style="text-align: center;"}
+{: style="text-align: center;"} -->
 
-[Direct Download](#){: .btn .btn--inverse .btn--x-large}
-{: style="text-align: center;"}
+#   Play the Demo today!
+{: .text-center}
 
--->
+<div style="text-align: center;">
+  <p>       
+    <a href="https://store.steampowered.com/app/1204940/Shot_in_the_Dark/" class="btn btn--inverse btn--x-large" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-steam" aria-hidden="true"></i><span class="label">Steam</span></a>
+    <a href="https://possumhousegames.itch.io/shot-in-the-dark" class="btn btn--inverse btn--x-large" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-itch-io" aria-hidden="true"></i><span class="label">Itch.io</span></a>    
+    <span style="width: 22px height: 22px"></span>  
+  </p>
+</div>
 
-[Wishlist on Steam today](https://store.steampowered.com/app/1204940/Shot_in_the_Dark/)
-{: style="text-align: center;"}
+<!-- [Wishlist on Steam today](https://store.steampowered.com/app/1204940/Shot_in_the_Dark/)
+{: style="text-align: center;"} -->
 
 ---
 
 {% include feature_row %}
+
+# Subscribe to our newsletter 
+{: .text-center}
+
+{% include newsletter-subscription.html %}
