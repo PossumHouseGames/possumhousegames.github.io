@@ -7,6 +7,7 @@ gem "wdm", "~> 0.1.0" if Gem.win_platform?
 gem "activesupport", ">= 4.1.11"
 gem "jekyll-remote-theme"
 gem "minimal-mistakes-jekyll"
+gem "rack", ">= 2.1.4"
 
 # If you have any plugins, put them here!
 group :jekyll_plugins do
@@ -17,5 +18,4 @@ group :jekyll_plugins do
   gem "jemoji"
   gem "jekyll-include-cache"
   gem "jekyll-algolia"
-  gem "jekyll-admin"
 end
