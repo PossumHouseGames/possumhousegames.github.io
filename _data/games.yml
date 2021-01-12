@@ -2,7 +2,7 @@ Shot in the Dark:
   name:  "Shot in the Dark"
   header_image: /assets/images/shot-in-the-dark/shot-in-the-dark-banner.png
   cover_image: /assets/images/shot-in-the-dark/shot-in-the-dark-cover-image.png
-  video: 53NrGikSnqs
+  video: Wfb8XGpAkHY
   tagline: Teeth in the dark...
   description: |
     Shot in the Dark is a classic western tale of bloody vengeance, rituals, and teeth in the dark. Take up the gun of the lone bandit as they stop at nothing in the pursuit of vengeance. The only thing standing between the bandit and their quarry are the occult nightmares lurking in the darkness. From demons to cultists and long dead gunslingers, all manner of foes are arrayed against you.
@@ -170,3 +170,36 @@ Heavy is the Crown:
       image_path: /assets/images/heavy-is-the-crown/Heavycrown2BIG.png
       alt: "placeholder image 2"
       title: ""
+  dlc:
+    - name:  "Heavy is the Crown: Of the Damned"
+      header_image: /assets/images/heavy-is-the-crown/heavy-is-the-crown-banner.png
+      cover_image: /assets/images/heavy-is-the-crown/dlc/of-the-damned/heavy-is-the-crown-of-the-damened-cover-image.png
+      video: fE3MeuwuOlE
+      tagline: Maintain the flock. Maintain your home.
+      description: |
+        It's time to descend back in to the cellar. It's been so long since the last time. 
+
+        What was down there again?
+
+      links:
+        # - label: "Website"
+        #   icon: "fas fa-fw fa-link"
+        #   url: "https://possumhousegames.com/games/the-sword-and-the-slime/"
+        # - label: "Steam"
+        #   icon: "fab fa-fw fa-steam"
+        #   url: "https://store.steampowered.com/app/1130570/The_Sword_and_the_Slime/"
+        - label: "Itch.io"
+          icon: "fab fa-fw fa-itch-io"
+          url: "https://possumhousegames.itch.io/heavy-is-the-crown"
+        - label: "Press Kit"
+          icon: "fa fa-fw fa-newspaper"
+          url: "https://possumhousegames.com/press/heavy-is-the-crown-of-the-damned/index.html"
+      gallery:
+        - url: /assets/images/heavy-is-the-crown/HeavyistTheCrownBIG.png
+          image_path: /assets/images/heavy-is-the-crown/HeavyistTheCrownBIG.png
+          alt: "placeholder image 1"
+          title: ""
+        - url: /assets/images/heavy-is-the-crown/Heavycrown2BIG.png
+          image_path: /assets/images/heavy-is-the-crown/Heavycrown2BIG.png
+          alt: "placeholder image 2"
+          title: ""
