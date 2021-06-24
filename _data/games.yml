@@ -203,3 +203,72 @@ Heavy is the Crown:
           image_path: /assets/images/heavy-is-the-crown/Heavycrown2BIG.png
           alt: "placeholder image 2"
           title: ""
+
+Space Cat 9:
+  name:  "Space Cat 9"
+  header_image: /assets/images/space-cat-9/SpaceCat9_Logo_Color_NoBack_4x.png
+  cover_image: /assets/images/space-cat-9/SpaceCat9_Logo_Color_NoBack_4x.png
+  background_image: /assets/images/space-cat-9/SpaceCat9_Logo_BG_4X.png
+  video:
+  tagline: 9 lives to save the moon.
+  description: |
+    The Maniacal Mice, a group of mech-loving, mayhem-inducing, and mozzarella-devouring agents of chaos, are trying to steal the moon! Their cheese-seeking spacecraft is on schedule to drill into the Moon’s core, mine it for precious gruyere, and set Earth’s gravity out of control. But what they don’t know is that one Courageous Cat has snuck on board and will do whatever it takes to stop the mice, even if it means using up all nine of its lives…
+    
+    Nine is a roguelike platformer chalked full of diabolic robotic mouse-themed creations set in a procedurally generated spaceship. Chase down 5 mice bosses as you leap, pounce, and swipe your way to victory!
+
+    ### Key Features:
+
+    - **CATLIKE AGILITY:** Highly mobile platforming that has you leaping, pouncing, and wall jumping past hazards at high speeds and extreme precision.
+    - **BEAUTIFUL AND CHARMING WORLD:** Gorgeous pixel art featuring mice shenanigans and high tech robotics across 4 distinct spaceship quadrants.
+    - **INTENSE BOSS FIGHTS:** Test your full range of combat skills against 5 mouse mech bosses.
+    - **9 LIVES SYSTEM:** Each of your 9 cat lives is stronger than the last. Sacrifice a life at any time for a Super Blast!
+    - **HIGH REPLAYABILITY:** Procedurally generated layouts, powerups, and an item store keep the game fresh across hundreds of runs.
+  features: 
+    - label : > 
+       **CAT LIKE AGILITY:**
+      description: |
+        Highly mobile platforming that has you leaping, pouncing, and walljumping past hazards at high speeds and extreme precision.
+    - label : > 
+        **BEAUTIFUL AND CHARMING WORLD:**
+      description: |
+        Gorgeous pixel art featuring mice shenanigans and high tech robotics across 4 distinct spaceship quadrants.
+    - label : "**INTENSE BOSS FIGHTS:**"
+      description: |
+        Test your full range of combat skills against 5 mouse mech bosses.
+    - label : "**9 LIVES SYSTEM:**"
+      description: |
+        Each of your 9 cat lives is stronger than the last. Sacrifice a life at any time for a Super Blast!
+    - label : "**HIGH REPLAYABILITY:**"
+      description: |
+        Procedurally generated layouts, powerups, and an item store keep the game fresh across hundreds of runs.
+    
+  links:
+    # - label: "Website"
+    #   icon: "fas fa-fw fa-link"
+    #   url: "https://possumhousegames.com/games/the-sword-and-the-slime/"
+    # - label: "Steam"
+    #   icon: "fab fa-fw fa-steam"
+    #   url: "https://store.steampowered.com/app/1130570/The_Sword_and_the_Slime/"
+    # - label: "Itch.io"
+    #   icon: "fab fa-fw fa-itch-io"
+    #   url: "https://possumhousegames.itch.io/heavy-is-the-crown"
+    # - label: "Press Kit"
+    #   icon: "fa fa-fw fa-newspaper"
+    #   url: "https://possumhousegames.com/press/heavy-is-the-crown/index.html"
+  gallery:
+    - url: /assets/images/space-cat-9/PossumHouse_SpaceCat9_Screenshot_1.PNG
+      image_path: /assets/images/space-cat-9/PossumHouse_SpaceCat9_Screenshot_1.PNG
+      alt: "placeholder image 1"
+      title: ""
+    - url: /assets/images/space-cat-9/PossumHouse_SpaceCat9_Screenshot_2.PNG
+      image_path: /assets/images/space-cat-9/PossumHouse_SpaceCat9_Screenshot_2.PNG
+      alt: "placeholder image 1"
+      title: ""
+    - url: /assets/images/space-cat-9/PossumHouse_SpaceCat9_Screenshot_3.PNG
+      image_path: /assets/images/space-cat-9/PossumHouse_SpaceCat9_Screenshot_3.PNG
+      alt: "placeholder image 1"
+      title: ""
+    - url: /assets/images/space-cat-9/PossumHouse_SpaceCat9_Screenshot_4.PNG
+      image_path: /assets/images/space-cat-9/PossumHouse_SpaceCat9_Screenshot_4.PNG
+      alt: "placeholder image 1"
+      title: ""

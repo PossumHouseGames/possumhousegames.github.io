@@ -12,25 +12,38 @@ layout: default
     {% if page.date %}<meta itemprop="datePublished" content="{{ page.date | date_to_xmlschema }}">{% endif %}
     {% if page.last_modified_at %}<meta itemprop="dateModified" content="{{ page.last_modified_at | date_to_xmlschema }}">{% endif %}
 
-    <section class="page__content" itemprop="text" style="text-align: center;">
+    <section class="page__content" itemprop="text">
       {% if game.video %}
         {% capture vid_id %}{{game.video}}{% endcapture %}
         {% include video id=vid_id provider="youtube" %}
 
-      {% comment %}
       {% elsif game.header_image %}
-      {% include page__hero.html image=game.header_image teaser=game.cover_image %}
-      {% endcomment%}
+      {% capture img_id %}{{game.header_image}}{% endcapture %}
+     
+        <figure class="align-center">
+          <img src=" {{ img_id }}" alt="">
+        </figure> 
 
       {% endif %}
-      <p>
+      <p style="text-align: center;">
       {% for link in game.links %}
         {% if link.label and link.url %}
           <a href="{{ link.url }}" class="btn btn--inverse btn--x-large" rel="nofollow noopener noreferrer"><i class="{{ link.icon | default: 'fas fa-link' }}" aria-hidden="true"></i><span class="label">{{ link.label }}</span></a>
         {% endif %} 
       {% endfor %}
       </p>
+
       {{ game.description | markdownify }}
+
+      {% comment %}
+      {% if game.features %}
+        {% for feature in game.features %}
+          {{ feature.label | markdownfiy }}
+
+          {{ feature.description | markdownfiy }}
+        {% endfor %}
+      {% endif %}
+      {% endcomment %}
 
       {% if game.gallery or game.galleries %}
         {% include gallery gameid=page.title %}
