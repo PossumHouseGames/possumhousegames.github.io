@@ -3,8 +3,19 @@ layout: default
 ---
 {% assign game = site.data.games[page.title] %}
 
-
-
+{% comment %}
+{% if game.video %}
+{% elsif game.header_image %}
+  {% capture img_id %}{{game.header_image}}{% endcapture %}     
+  <div class="page__hero{% if page.header.overlay_color or page.header.overlay_image %}--overlay{% endif %}"
+style="{% if page.header.overlay_color %}background-color: {{ page.header.overlay_color | default: 'transparent' }};{% endif %} {% if overlay_img_path %}background-image: {% if overlay_filter %}linear-gradient({{ overlay_filter }}, {{ overlay_filter }}), {% endif %}url('{{ overlay_img_path }}');{% endif %}"
+>
+    <div class="wrapper">
+      <img src="{{ img_id | relative_url }}" alt="{{ image_description }}" class="page__hero-image"> 
+    </div>  
+  </div>
+{% endif %}
+{% endcomment %}
 <div id="main" role="main">
   <article class="splash" itemscope itemtype="https://schema.org/CreativeWork">
     {% if page.title %}<meta itemprop="headline" content="{{ page.title | markdownify | strip_html | strip_newlines | escape_once }}">{% endif %}
@@ -20,10 +31,13 @@ layout: default
       {% elsif game.header_image %}
       {% capture img_id %}{{game.header_image}}{% endcapture %}
      
-        <figure class="align-center">
-          <img src=" {{ img_id }}" alt="">
-        </figure> 
-
+      <div class="page__hero{% if page.header.overlay_color or page.header.overlay_image %}--overlay{% endif %}"
+  style="{% if page.header.overlay_color %}background-color: {{ page.header.overlay_color | default: 'transparent' }};{% endif %} {% if overlay_img_path %}background-image: {% if overlay_filter %}linear-gradient({{ overlay_filter }}, {{ overlay_filter }}), {% endif %}url('{{ overlay_img_path }}');{% endif %}"
+>
+        <div class="wrapper">
+          <img src="{{ img_id | relative_url }}" alt="{{ image_description }}" class="page__hero-image"> 
+        </div>  
+      </div>
       {% endif %}
       <p style="text-align: center;">
       {% for link in game.links %}
