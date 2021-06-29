@@ -255,15 +255,15 @@ Space Cat 9:
     #   icon: "fa fa-fw fa-newspaper"
     #   url: "https://possumhousegames.com/press/heavy-is-the-crown/index.html"
   gallery:
-    # - url: /assets/images/space-cat-9/PossumHouse_SpaceCat9_Screenshot_1.png
+    # - url: /assets/images/space-cat-9/PossumHouse_SpaceCat9_Screenshot1.png
     #   image_path: /assets/images/space-cat-9/PossumHouse_SpaceCat9_Screenshot1.png
     #   alt: "placeholder image 1"
     #   title: ""
-    # - url: /assets/images/space-cat-9/PossumHouse_SpaceCat9_Screenshot_3.png
+    # - url: /assets/images/space-cat-9/PossumHouse_SpaceCat9_Screenshot3.png
     #   image_path: /assets/images/space-cat-9/PossumHouse_SpaceCat9_Screenshot3.png
     #   alt: "placeholder image 1"
     #   title: ""
-    # - url: /assets/images/space-cat-9/PossumHouse_SpaceCat9_Screenshot_4.png
+    # - url: /assets/images/space-cat-9/PossumHouse_SpaceCat9_Screenshot4.png
     #   image_path: /assets/images/space-cat-9/PossumHouse_SpaceCat9_Screenshot4.png
     #   alt: "placeholder image 1"
     #   title: ""
@@ -271,7 +271,7 @@ Space Cat 9:
       image_path: /assets/images/space-cat-9/Reactor2.png
       alt: "placeholder image 1"
       title: ""
-    - url: /assets/images/space-cat-9/PossumHouse_SpaceCat9_Screenshot_2.png
+    - url: /assets/images/space-cat-9/PossumHouse_SpaceCat9_Screenshot2.png
       image_path: /assets/images/space-cat-9/PossumHouse_SpaceCat9_Screenshot2.png
       alt: "placeholder image 1"
       title: ""
