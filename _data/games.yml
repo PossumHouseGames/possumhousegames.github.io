@@ -213,7 +213,7 @@ Space Cat 9:
   description: |
     The Maniacal Mice, a group of mech-loving, mayhem-inducing, and mozzarella-devouring agents of chaos, are trying to steal the moon! Their cheese-seeking spacecraft is on schedule to drill into the Moon’s core, mine it for precious gruyere, and set Earth’s gravity out of control. But what they don’t know is that one Courageous Cat has snuck on board and will do whatever it takes to stop the mice, even if it means using up all nine of its lives…
     
-    Nine is a roguelike platformer chalked full of diabolic robotic mouse-themed creations set in a procedurally generated spaceship. Defeat 5 mice bosses to save the moon from destruction!
+    Nine is a roguelike platformer chalked full of diabolic robotic mouse-themed creations set in a procedurally generated spaceship. Defeat 5 mice bosses and save the moon!
 
     ### Key Features:
 
@@ -242,12 +242,12 @@ Space Cat 9:
         Procedurally generated layouts, powerups, and an item store keep the game fresh across hundreds of runs.
     
   links:
-    # - label: "Twitter"
-    #   icon: "fab fa-fw fa-twitter-square"
-    #   url: "https://twitter.com/spacecatnine"
-    # - label: "Steam"
-    #   icon: "fab fa-fw fa-steam"
-    #   url: "https://store.steampowered.com/app/1130570/The_Sword_and_the_Slime/"
+    - label: "Twitter"
+      icon: "fab fa-fw fa-twitter-square"
+      url: "https://twitter.com/spacecatnine"
+    - label: "Discord"
+      icon: "fab fa-fw fa-discord"
+      url: "https://t.co/y4EDGLmL5K?amp=1"
     # - label: "Itch.io"
     #   icon: "fab fa-fw fa-itch-io"
     #   url: "https://possumhousegames.itch.io/heavy-is-the-crown"
