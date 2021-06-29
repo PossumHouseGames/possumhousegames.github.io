@@ -65,7 +65,8 @@ plugins:
   - jemoji
   - jekyll-include-cache
   - jekyll-remote-theme
-
+  - jekyll-redirect-from
+  
 author:
   name   : "Possum House Games"
   avatar : "/assets/images/collaborators/PossumHouse.png"
