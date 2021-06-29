@@ -42,7 +42,7 @@ style="{% if page.header.overlay_color %}background-color: {{ page.header.overla
       <p style="text-align: center;">
       {% for link in game.links %}
         {% if link.label and link.url %}
-          <a href="{{ link.url }}" class="btn btn--inverse btn--x-large" rel="nofollow noopener noreferrer"><i class="{{ link.icon | default: 'fas fa-link' }}" aria-hidden="true"></i><span class="label">{{ link.label }}</span></a>
+          <a href="{{ link.url }}" class="btn btn--inverse btn--large" rel="nofollow noopener noreferrer"><i class="{{ link.icon | default: 'fas fa-link' }}" aria-hidden="true"></i><span class="label">{{ link.label }}</span></a>
         {% endif %} 
       {% endfor %}
       </p>
