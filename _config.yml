@@ -66,7 +66,7 @@ plugins:
   - jekyll-include-cache
   - jekyll-remote-theme
   - jekyll-redirect-from
-  
+
 author:
   name   : "Possum House Games"
   avatar : "/assets/images/collaborators/PossumHouse.png"
@@ -182,3 +182,6 @@ footer:
     - label: "Discord"
       icon: "fab fa-fw fa-discord"
       url: "https://discord.gg/9s6vSNM"
+
+  whitelist:
+  - jekyll-redirect-from
