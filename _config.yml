@@ -16,6 +16,7 @@
 title: Possum House Games
 subtitle: We make games.
 url: https://possumhousegames.com
+baseurl: ""
 email:
 description: >- # this means to ignore newlines until "baseurl:"
     Possum House is an indie development studio that focuses on small titles with experimental and fresh mechanics. With each game we try to introduce something novel and unique that players haven’t seen before. We want to be a sustainable and experimental team that puts the medium first, allowing us to develop unique titles. Less is more is our approach. Aesthetics > graphics. Simple mechanics arranged in original ways.
