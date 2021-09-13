@@ -244,6 +244,9 @@ Space Cat 9:
         Procedurally generated layouts, powerups, and an item store keep the game fresh across hundreds of runs.
     
   links:
+    - label: "Itch.io"
+      icon: "fab fa-fw fa-itch-io"
+      url: "https://possumhousegames.itch.io/heavy-is-the-crown"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
       url: "https://twitter.com/spacecatnine"
