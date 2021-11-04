@@ -4,74 +4,64 @@ on:
     push:
         branches:
             - main
+            - master
 
 jobs:
     build-presskey-pages:
         runs-on: ubuntu-latest
         steps:
             - name: 📂 setup
-              uses: actions/checkout@v2
+              uses: actions/checkout@v2.3.5
               with:
                   repository: "PossumHouseGames/possum-house-games-press-kit"
                   ref: "master"
-                  path: "./presskit/"
-                  token: ${{ secrets.GITHUB_TOKEN }}
+                  token: ${{ secrets.BUILD }}
             - name: 💎 setup node
               uses: actions/setup-node@v1
               with:
                   node-version: 12
             - run: npm install
-              working-directory: "./presskit/"
             - run: npx presskit build --pretty-links
-              working-directory: "./presskit/"
             - name: 🚀 Create presskit site artifacts
               uses: actions/upload-artifact@v2
               with:
                   name: presskit-page-artifact
-                  path: "./presskit/build/"
+                  path: "./build/"
                   if-no-files-found: error
     build-jekyll-pages:
         needs: build-presskey-pages
         runs-on: ubuntu-latest
         steps:
             - name: 📂 setup
-              uses: actions/checkout@v2
+              uses: actions/checkout@v2.3.5
               with:
-                  path: "./jekyll/"
+                  repository: "PossumHouseGames/web.jekyll"
+                  ref: "main"
+                  token: ${{ secrets.BUILD }}
             - name: 💎 setup ruby
               uses: ruby/setup-ruby@v1
               with:
                   ruby-version: 2.7 # can change this to 2.7 or whatever version you prefer
                   bundler-cache: false
-            - name: Delete _site
-              run: rm -rf ./_site
-              working-directory: "./jekyll/"
-            - name: Delete press
-              run: rm -rf ./press
-              working-directory: "./jekyll/"
+            - run: rm -rf ./_site
             - name: 🚀 Download Presskit artifact
               uses: actions/download-artifact@v2
               id: presskit
               with:
                   name: "presskit-page-artifact"
-                  path: "./jekyll/press/"
+                  path: "./press/"
             - name: "Presskit path"
               run: echo ${{steps.presskit.outputs.download-path}}
             - name: 🔨 install dependencies & build site
               uses: limjh16/jekyll-action-ts@v2
               with:
-                  jekyll_src: "./jekyll/"
                   enable_cache: false
                   format_output: true
-            - name: Delete Cache from ./jekyll/_site
-              run: find ./_site -name "*.cache" -delete -print
-              working-directory: "./jekyll/"
-            - name: 🚀 Create main site artifacts
-              uses: actions/upload-artifact@v2
+            - name: Delete *.cache
+              run: find . -name "*.cache" -delete -print
+            - name: 🚀 deploy
+              uses: peaceiris/actions-gh-pages@v3
               with:
-                  name: jekyll-page-artifact
-                  path: ./jekyll/_site/
-                  if-no-files-found: error
-            - name: Clean out build
-              run: bundle exec jekyll clean
-              working-directory: "./jekyll/"
+                  github_token: ${{ secrets.GITHUB_TOKEN }}
+                  publish_dir: ./_site
+            - run: bundle exec jekyll clean
