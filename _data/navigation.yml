@@ -1,9 +1,0 @@
-main:
-  - title: "Games"
-    url: /games/
-  # - title: "Blog"
-  #   url: /blog/
-  - title: "Team"
-    url: /team/  
-  - title: "Press"
-    url: /press/
