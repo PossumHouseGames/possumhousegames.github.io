@@ -22,7 +22,7 @@
 					
 					'/space_cat_nine/PossumHouse_SpaceCat9_Screenshot2.png': 'center',
 					
-					'/space_cat_nine/PossumHouse_SpaceCat9_Screenshot3.png': 'center',
+					'/space_cat_nine//images/PossumHouse_SpaceCat9_Screenshot3.png': 'center',
 					
 					'/space_cat_nine/PossumHouse_SpaceCat9_Screenshot4.png': 'center',
 					
@@ -37,9 +37,9 @@
 				
 				images: {
 					
-					'/shot_in_the_dark/Big-Red-Coming.png': '0% 35%',
+					'/shot_in_the_dark//images/Big-Red-Coming.png': '0% 35%',
 					
-					'/shot_in_the_dark/Birch-Forest.png': 'center',
+					'/shot_in_the_dark//images/Birch-Forest.png': 'center',
 					
 					'/shot_in_the_dark/Eyes-in-the-Dark.png': 'center',
 					
@@ -54,7 +54,7 @@
 				
 				images: {
 					
-					'/heavy_is_the_crown/Heavycrown2BIG.png': '0% 35%',
+					'/heavy_is_the_crown//images/Heavycrown2BIG.png': '0% 35%',
 					
 				},
 				section: $('#banner_heavy_is_the_crown')
@@ -67,11 +67,11 @@
 				
 				images: {
 					
-					'/the_sword_and_the_slime/indoors.png': '0% 35%',
+					'/the_sword_and_the_slime/images/indoors.png': '0% 35%',
 					
-					'/the_sword_and_the_slime/graveforest2-768x410.png': 'center',
+					'/the_sword_and_the_slime/images/graveforest2-768x410.png': 'center',
 					
-					'/the_sword_and_the_slime/houses.png': 'center',
+					'/the_sword_and_the_slime/images/houses.png': 'center',
 					
 				},
 				section: $('#banner_the_sword_and_the_slime')
