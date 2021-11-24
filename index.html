@@ -71,6 +71,8 @@
       property="og:image"
       content="https://possum.loca.lt/assets/images/logos/card.png"
     />
+    <meta property="og:image:height" content="512" />
+    <meta property="og:image:width" content="512" />
     <meta name="twitter:card" content="summary" />
     <meta
       property="twitter:image"
@@ -90,7 +92,12 @@
         "description": "Possum House is an indie development studio that focuses on small titles with experimental and fresh mechanics.",
         "url": "https://possum.loca.lt/",
         "@type": "website",
-        "image": "https://possum.loca.lt/assets/images/logos/card.png",
+        "image": {
+          "height": 512,
+          "width": 512,
+          "url": "https://possum.loca.lt/assets/images/logos/card.png",
+          "@type": "imageObject"
+        },
         "headline": "Possum House Games",
         "sameAs": [
           "https://possumhousegames.itch.io",
