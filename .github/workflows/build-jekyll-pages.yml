@@ -41,7 +41,7 @@ jobs:
                   bundler-cache: false
             - run: rm -rf ./_site
             - name: 🚀 Download Presskit artifact
-              uses: actions/download-artifact@v2
+              uses: actions/download-artifact@v4.1.7
               id: presskit
               with:
                   name: "presskit-page-artifact"
